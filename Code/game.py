@@ -1,7 +1,11 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Dec  8 13:35:40 2023
+from settings import *
 
-@author: angel
-"""
-
+class Game:
+    def __init__(self):
+        
+        # general
+        self.surface = pygame.Surface ((GAME_WIDTH, GAME_HEIGHT))
+        self.display_surface = pygame.display.get_surface()
+        
+    def run(self):
+        self.display_surface.blit(self.surface, (PADDING,PADDING))
