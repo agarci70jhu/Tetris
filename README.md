@@ -36,7 +36,7 @@ This class keeps track of the user's score, lines cleared, and current level
 1) Ensure pygame is installed
 3) Run main.py to start the game
 4) A menu will appear with three options (resume, options, and quit)
-   - Resume will start the game and resume it when paused (SPACE and ESC keys pause game)
-   - Options will take you to another menu that lets you disable audio using "AUDIO SETTINGS." The other settings have not been developed
+   - RESUME will start the game and resume it when paused (SPACE and ESC keys pause game)
+   - OPTIONS will take you to another menu that lets you disable audio using "AUDIO SETTINGS." The other settings have not been developed
    - Quit will exit the game. Can also be exited using the "x" button in the topright of the window
 5) The game ends when your pieces overlap at the top. The game will automatically close when you lose
